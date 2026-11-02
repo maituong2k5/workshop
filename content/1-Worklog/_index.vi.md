@@ -6,35 +6,28 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Phần này trình bày chi tiết quá trình làm việc và học tập của tôi trong suốt 12 tuần thực tập, tập trung vào các kiến thức và kỹ năng thực hành về AWS Cloud và DevOps.
 
-**Trong trang này** bạn sẽ cần giới thiệu worklog của bạn **như thế nào**? Bạn hoàn thành chương trình trong vòng **bao nhiêu tuần**? Bạn **đã làm gì** trong các tuần đó?
+**Tuần 1:** [Làm quen với AWS và điện toán đám mây](1.1-week1/)
 
+**Tuần 2:** [Tìm hiểu về mạng AWS với Amazon VPC](1.2-week2/)
 
-Thông thường và cũng là tiêu chuẩn, một worklog được thực hiện trong khoảng 3 tháng (trong suốt thời gian thực tập) với nội dung các tuần như sau:
+**Tuần 3:** [Triển khai ứng dụng với Amazon EC2 và Amazon S3](1.3-week3/)
 
-**Tuần 1:** [Làm quen với AWS và các dịch vụ cơ bản trong AWS](1.1-week1/)
+**Tuần 4:** [Cơ sở dữ liệu, giám sát và khả năng mở rộng trên AWS](1.4-week4/)
 
-**Tuần 2:** [Làm công việc A...](1.2-week2/)
+**Tuần 5:** [Quản trị Linux và vận hành hệ thống AWS](1.5-week5/)
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+**Tuần 6:** [Infrastructure as Code với AWS CloudFormation/CDK](1.6-week6/)
 
-**Tuần 4:** [Làm công việc C...](1.4-week4/)
+**Tuần 7:** [Đóng gói và triển khai ứng dụng bằng Docker](1.7-week7/)
 
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
+**Tuần 8:** [Tìm hiểu CI/CD và AWS CodePipeline](1.8-week8/)
 
-**Tuần 6:** [Làm công việc E...](1.6-week6/)
+**Tuần 9:** [Triển khai ứng dụng container với Amazon ECS](1.9-week9/)
 
-**Tuần 7:** [Làm công việc G...](1.7-week7/)
+**Tuần 10:** [Xây dựng quy trình CI/CD tự động cho ECS](1.10-week10/)
 
-**Tuần 8:** [Làm công việc H...](1.8-week8/)
+**Tuần 11:** [Giám sát, bảo mật và tối ưu hóa hệ thống](1.11-week11/)
 
-**Tuần 9:** [Làm công việc I...](1.9-week9/)
-
-**Tuần 10:** [Làm công việc L...](1.10-week10/)
-
-**Tuần 11:** [Làm công việc M...](1.11-week11/)
-
-**Tuần 12:** [Làm công việc N...](1.12-week12/)
+**Tuần 12:** [Thực hiện dự án DevOps tổng hợp và xây dựng tài liệu kỹ thuật](1.12-week12/)

@@ -10,7 +10,7 @@ pre: " <b> 1.1. </b> "
 
 - Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
 - Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-- Học cách tạo tài khoản
+-
 
 ### Các công việc cần triển khai trong tuần này:
 
