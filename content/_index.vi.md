@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 08/08/2025 đến ngày 12/11/2025
 
-![Ảnh đại diện của bạn](/static/images/tuong.png)
+![Ảnh đại diện của bạn](/workshop/images/tuong.png)
 
 ### Nội dung báo cáo
 
