@@ -6,34 +6,36 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Mục tiêu tuần 2:
+**### Mục tiêu tuần 2:**
 
-- Tìm hiểu các kiến thức cơ bản về mạng máy tính và dịch vụ Amazon VPC.
-- Tìm hiểu địa chỉ IPv4, ký hiệu CIDR và cách phân bổ địa chỉ IP.
-- Nắm được kiến trúc VPC và cách cấu hình Subnet.
-- Phân biệt Public Subnet và Private Subnet.
-- Tìm hiểu Internet Gateway, NAT Gateway và Route Table.
-- Tìm hiểu cách Security Group và Network ACL kiểm soát lưu lượng mạng.
-- Thực hành tạo và cấu hình một môi trường mạng VPC cơ bản trên AWS.
+- Hiểu các khái niệm cơ bản về dịch vụ quản lý truy cập AWS Identity and Access Management (IAM).
+- Tìm hiểu cách quản lý IAM Users và Groups.
+- Hiểu IAM Policies và cách phân quyền truy cập vào các tài nguyên AWS.
+- Tìm hiểu IAM Roles và sự khác biệt giữa IAM Roles và IAM Users.
+- Hiểu nguyên tắc đặc quyền tối thiểu (Principle of Least Privilege) và tầm quan trọng của nó trong bảo mật Cloud.
+- Tìm hiểu cách cấp quyền cho các ứng dụng chạy trên Amazon EC2 thông qua IAM Roles.
+- Thực hành cấu hình quyền truy cập IAM nhằm tăng cường bảo mật cho dự án Web bán điện thoại.
 
-### Các công việc đã thực hiện trong tuần:
+**### Các công việc cần thực hiện trong tuần:**
 
-| Ngày  | Công việc                                                                                                                                                                                                                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                      |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | --------------------------------------------------------------------------------------------------- |
-| **1** | - Tìm hiểu tổng quan về mạng máy tính.<br>- Tìm hiểu địa chỉ IPv4 và ký hiệu CIDR.<br>- Phân biệt địa chỉ IP công khai (Public IP) và địa chỉ IP riêng (Private IP).<br>- Tìm hiểu các kiến thức mạng cơ bản như TCP/IP, DNS và Port.                        | 15/08/2026   | 15/08/2026      | [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)   |
-| **2** | - Tìm hiểu tổng quan về Amazon VPC.<br>- Tìm hiểu các thành phần và kiến trúc của VPC.<br>- Tìm hiểu dải địa chỉ CIDR của VPC.<br>- Tìm hiểu cách tạo và cấu hình VPC.                                                                                       | 16/08/2026   | 16/08/2026      | [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)   |
-| **3** | - Tìm hiểu về Subnet trong Amazon VPC.<br>- Phân biệt Public Subnet và Private Subnet.<br>- Tìm hiểu cách phân bổ địa chỉ IP cho các Subnet.<br>- Tìm hiểu cách phân bố Subnet trên nhiều Availability Zone.                                                 | 17/08/2026   | 17/08/2026      | [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html)    |
-| **4** | - Tìm hiểu Internet Gateway và NAT Gateway.<br>- Tìm hiểu Route Table và các quy tắc định tuyến.<br>- Nắm được cách lưu lượng mạng di chuyển giữa VPC và Internet.<br>- Phân biệt chức năng của Internet Gateway và NAT Gateway.                             | 18/08/2026   | 18/08/2026      | [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) |
-| **5** | - Tìm hiểu Security Group và Network ACL.<br>- Tìm hiểu Inbound Rules và Outbound Rules.<br>- Phân biệt Security Group và Network ACL.<br>- Tìm hiểu cách kiểm soát lưu lượng mạng và bảo vệ tài nguyên AWS.                                                 | 19/08/2026   | 19/08/2026      | [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)  |
-| **6** | - Làm quen với việc cấu hình mạng VPC thông qua AWS Management Console.<br>- Thực hành tạo VPC và cấu hình Subnet.<br>- Tạo và kết nối Internet Gateway với VPC.<br>- Cấu hình Route Table và Security Group.                                                | 20/08/2026   | 20/08/2026      | [AWS VPC Workshop](https://cloudjourney.awsstudygroup.com/)                                         |
-| **7** | **Thực hành:**<br>- Xây dựng một môi trường mạng VPC cơ bản.<br>- Tạo Public Subnet và Private Subnet.<br>- Cấu hình Internet Gateway và Route Table.<br>- Thiết lập Security Group và kiểm tra kết nối mạng.<br>- Kiểm tra và tổng hợp sơ đồ kiến trúc VPC. | 21/08/2026   | 21/08/2026      | [AWS VPC Workshop](https://cloudjourney.awsstudygroup.com/)                                         |
+| Ngày  | Công việc                                                                                                                                                                                                                                                     | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
+| **1** | - Giới thiệu về AWS Identity and Access Management (IAM)<br>- Tìm hiểu các thành phần IAM và chức năng của chúng<br>- Khám phá giao diện IAM Dashboard                                                                                                        | 15/08/2026   | 15/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **2** | - Tìm hiểu IAM Users<br>- Tìm hiểu thông tin xác thực và các phương thức truy cập của User<br>- Thực hành tạo và quản lý IAM Users                                                                                                                            | 16/08/2026   | 16/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **3** | - Tìm hiểu IAM Groups<br>- Hiểu cách tổ chức Users thành các Groups<br>- Thực hành tạo Groups và thêm Users<br>- Quản lý quyền truy cập thông qua Groups                                                                                                      | 17/08/2026   | 17/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **4** | - Tìm hiểu IAM Policies<br>- Hiểu cấu trúc Policy dưới định dạng JSON<br>- Tìm hiểu Effect, Action, Resource và Condition<br>- Thực hành gán Policies cho IAM Users và Groups                                                                                 | 18/08/2026   | 18/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **5** | - Tìm hiểu IAM Roles<br>- Phân biệt IAM Users và IAM Roles<br>- Khám phá Trust Policy và Permission Policy<br>- Tìm hiểu cơ chế thông tin xác thực tạm thời                                                                                                   | 19/08/2026   | 19/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **6** | - Tìm hiểu nguyên tắc đặc quyền tối thiểu<br>- Tìm hiểu các nguyên tắc bảo mật IAM cơ bản<br>- Khám phá IAM Roles for EC2<br>- Hiểu cách EC2 truy cập các dịch vụ AWS mà không cần lưu Access Key cố định                                                     | 20/08/2026   | 20/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Thực hành:**<br>+ Tạo và cấu hình IAM User<br>+ Tạo IAM Group và gán Policies<br>+ Kiểm tra và thử nghiệm quyền truy cập IAM<br>+ Cấu hình IAM Role cho EC2<br>+ Kiểm tra quyền truy cập và các thiết lập bảo mật<br>+ Tổng kết kiến thức đã học trong tuần | 21/08/2026   | 21/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-### Kết quả đạt được tuần 2:
+**### Kết quả đạt được trong tuần 2:**
 
-- Hiểu được các kiến thức cơ bản về mạng máy tính và dịch vụ Amazon VPC.
-- Nắm được địa chỉ IPv4, ký hiệu CIDR và cách phân bổ địa chỉ IP.
-- Phân biệt được Public Subnet và Private Subnet.
-- Hiểu chức năng của Internet Gateway, NAT Gateway và Route Table trong việc quản lý kết nối mạng.
-- Nắm được cách Security Group và Network ACL kiểm soát lưu lượng mạng.
-- Thực hành tạo và cấu hình môi trường mạng VPC cơ bản trên AWS.
-- Xây dựng được kiến thức nền tảng về Networking để phục vụ việc triển khai EC2, RDS và quản lý hạ tầng Cloud trong các tuần tiếp theo.
+- Hiểu các khái niệm cơ bản về dịch vụ AWS Identity and Access Management (IAM).
+- Biết cách tạo và quản lý IAM Users và Groups.
+- Hiểu cấu trúc và chức năng của IAM Policies.
+- Thực hành gán quyền truy cập cho IAM Users và Groups.
+- Phân biệt được IAM Users và IAM Roles.
+- Hiểu cách hoạt động của Trust Policy và Permission Policy.
+- Nắm được nguyên tắc đặc quyền tối thiểu và các phương pháp bảo mật AWS cơ bản.
+- Tìm hiểu cách IAM Roles for EC2 cho phép ứng dụng truy cập các dịch vụ AWS một cách an toàn.
+- Xây dựng nền tảng kiến thức về quản lý quyền truy cập và bảo mật tài nguyên Cloud cho dự án Web bán điện thoại.

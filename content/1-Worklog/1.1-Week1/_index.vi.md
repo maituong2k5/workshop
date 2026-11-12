@@ -8,32 +8,33 @@ pre: " <b> 1.1. </b> "
 
 ### Mục tiêu tuần 1:
 
-- Tìm hiểu các khái niệm cơ bản về Điện toán đám mây (Cloud Computing) và nền tảng AWS.
-- Làm quen với hạ tầng toàn cầu AWS và các nhóm dịch vụ AWS cơ bản.
-- Tìm hiểu AWS Management Console và AWS CLI.
-- Tìm hiểu các kiến thức cơ bản về bảo mật tài khoản AWS và IAM.
-- Thực hành các thao tác AWS cơ bản thông qua AWS Management Console và AWS CLI.
+- Hiểu các khái niệm cơ bản về Điện toán đám mây và Amazon Web Services (AWS).
+- Tìm hiểu cách tạo và cấu hình tài khoản AWS.
+- Hiểu mô hình định giá AWS và cách quản lý chi phí trên nền tảng đám mây.
+- Tìm hiểu cách sử dụng AWS Budgets để theo dõi và kiểm soát chi phí.
+- Làm quen với AWS Support và các gói hỗ trợ kỹ thuật.
+- Khám phá những dịch vụ AWS cơ bản cần thiết để triển khai Website bán điện thoại.
 
-### Các công việc đã thực hiện trong tuần:
+### Các công việc cần thực hiện trong tuần:
 
-| Ngày  | Công việc                                                                                                                                                                                                                                           | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                               |
-| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ------------------------------------------------------------ |
-| **1** | - Giới thiệu về Điện toán đám mây (Cloud Computing).<br>- Tìm hiểu các mô hình dịch vụ IaaS, PaaS và SaaS.<br>- Tìm hiểu tổng quan về AWS và những ưu điểm của nền tảng.                                                                            | 08/08/2026   | 08/08/2026      | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **2** | - Tìm hiểu hạ tầng toàn cầu AWS (AWS Global Infrastructure).<br>- Tìm hiểu Region (Khu vực) và Availability Zone (Vùng sẵn sàng).<br>- Khám phá các nhóm dịch vụ chính của AWS.                                                                     | 09/08/2026   | 09/08/2026      | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **3** | - Làm quen với AWS Management Console.<br>- Tìm hiểu các thành phần cơ bản của IAM:<br>+ User (Người dùng).<br>+ Group (Nhóm).<br>+ Policy (Chính sách).<br>+ Role (Vai trò).<br>- Tìm hiểu nguyên tắc cấp quyền tối thiểu (Least Privilege).       | 10/08/2026   | 10/08/2026      | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **4** | - Tìm hiểu AWS CLI.<br>- Cài đặt và cấu hình AWS CLI.<br>- Thiết lập thông tin xác thực AWS và Region mặc định.                                                                                                                                     | 11/08/2026   | 11/08/2026      | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **5** | - Thực hành các lệnh AWS CLI cơ bản.<br>- Kiểm tra thông tin tài khoản AWS.<br>- Tìm hiểu cách truy vấn các Region.<br>- Khám phá tài nguyên EC2 và S3.                                                                                             | 12/08/2026   | 12/08/2026      | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **6** | - Tìm hiểu các kiến thức cơ bản về Amazon EC2.<br>+ Instance Type (Loại máy chủ).<br>+ AMI (Amazon Machine Image).<br>+ EBS (Elastic Block Store).<br>+ Security Group (Nhóm bảo mật).<br>+ Key Pair (Cặp khóa).<br>+ Elastic IP (Địa chỉ IP tĩnh). | 13/08/2026   | 13/08/2026      | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| **7** | **Thực hành:**<br>- Khởi tạo một EC2 Instance.<br>- Cấu hình Security Group.<br>- Kết nối đến EC2 thông qua SSH.<br>- Thực hiện các lệnh Linux cơ bản.<br>- Thực hành dừng (Stop) và chấm dứt (Terminate) EC2 Instance.                             | 14/08/2026   | 14/08/2026      | [AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
+| Ngày  | Công việc                                                                                                                                                                                                                                        | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ----------------------------------------------------- |
+| **1** | - Giới thiệu về Điện toán đám mây và AWS<br>- Tìm hiểu lợi ích của Điện toán đám mây<br>- Khám phá lộ trình học tập AWS CloudJourney                                                                                                             | 08/08/2026   | 08/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **2** | - Tìm hiểu cách tạo tài khoản AWS<br>- Tìm hiểu cấu trúc tài khoản AWS<br>- Làm quen với AWS Management Console                                                                                                                                  | 09/08/2026   | 09/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **3** | - Tìm hiểu kiến thức cơ bản về định giá AWS<br>- Tìm hiểu AWS Free Tier và chi phí dịch vụ<br>- Khám phá các khái niệm ước tính chi phí và thanh toán                                                                                            | 10/08/2026   | 10/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **4** | - Tìm hiểu kiến thức cơ bản về AWS Budgets<br>- Tạo ngân sách chi phí hàng tháng<br>- Cấu hình ngưỡng ngân sách và cảnh báo chi tiêu<br>- Tìm hiểu cách theo dõi chi phí AWS                                                                     | 11/08/2026   | 11/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **5** | - Khám phá dịch vụ AWS Support<br>- Tìm hiểu các gói hỗ trợ AWS<br>- Tìm hiểu cách truy cập hỗ trợ kỹ thuật AWS<br>- Khám phá tài liệu và nguồn hỗ trợ AWS                                                                                       | 12/08/2026   | 12/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **6** | - Khám phá AWS Management Console<br>- Xác định các dịch vụ AWS cần thiết cho dự án Web bán điện thoại<br>- Tìm hiểu mục đích cơ bản của EC2, S3, RDS và VPC<br>- Rà soát kiến trúc triển khai AWS dự kiến                                       | 13/08/2026   | 13/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Thực hành:**<br>+ Kiểm tra cấu hình tài khoản AWS<br>+ Kiểm tra cài đặt thanh toán và ngân sách<br>+ Khám phá bảng điều khiển các dịch vụ AWS<br>+ Rà soát yêu cầu triển khai Website bán điện thoại<br>+ Tổng kết kiến thức đã học trong tuần | 14/08/2026   | 14/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-### Kết quả đạt được tuần 1:
+### Kết quả đạt được trong tuần 1:
 
-- Hiểu được các khái niệm cơ bản về Điện toán đám mây và nền tảng AWS.
-- Nắm được kiến thức về AWS Region, Availability Zone và các nhóm dịch vụ chính của AWS.
-- Làm quen với giao diện AWS Management Console.
-- Tìm hiểu các khái niệm cơ bản của IAM, bao gồm User, Group, Policy và Role.
-- Cài đặt và cấu hình AWS CLI trên môi trường làm việc.
-- Thực hành các lệnh AWS CLI cơ bản để tương tác với tài nguyên AWS.
-- Nắm được các kiến thức nền tảng về Amazon EC2, bao gồm AMI, Instance Type, EBS, Security Group và Key Pair.
-- Thực hành khởi tạo và kết nối đến EC2 Instance thông qua SSH.
-- Xây dựng nền tảng kiến thức để tiếp tục tìm hiểu về hạ tầng AWS, Linux, Docker và DevOps.
+- Hiểu các khái niệm cơ bản và lợi ích của Điện toán đám mây và AWS.
+- Tạo và làm quen với tài khoản AWS.
+- Sử dụng được AWS Management Console ở mức cơ bản.
+- Tìm hiểu các khái niệm về định giá, thanh toán và quản lý chi phí AWS.
+- Nắm được vai trò của AWS Budgets trong việc theo dõi chi phí trên nền tảng đám mây.
+- Tìm hiểu các gói AWS Support và nguồn tài liệu hỗ trợ kỹ thuật.
+- Xác định được các dịch vụ AWS chính cần thiết cho Website bán điện thoại.
+- Bước đầu hiểu được kiến trúc triển khai dự án trên AWS.
+- Chuẩn bị nền tảng kiến thức để tiếp tục học về hạ tầng AWS và triển khai dự án lên Cloud.

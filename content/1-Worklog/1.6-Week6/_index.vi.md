@@ -1,58 +1,41 @@
 ---
-title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+title: "Week 6 Worklog"
+date: 2026-09-12
+weight: 6
 chapter: false
-pre: " <b> 1.6. </b> "
+pre: " \<b> 1.6. \</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+**### Mục tiêu tuần 6:**
 
-### Mục tiêu tuần 6:
+- Hiểu các khái niệm và tính năng cơ bản của Amazon Relational Database Service (RDS).
+- Tìm hiểu cách tạo và cấu hình một phiên bản Amazon RDS MySQL.
+- Hiểu về DB Instance, DB Subnet Group và kết nối cơ sở dữ liệu.
+- Tìm hiểu cách cấu hình quyền truy cập cơ sở dữ liệu thông qua Security Groups.
+- Hiểu các chức năng sao lưu, khôi phục và giám sát cơ sở dữ liệu trên Amazon RDS.
+- Tìm hiểu cách chuyển cơ sở dữ liệu MySQL hiện có từ môi trường Local lên Amazon RDS.
+- Cấu hình Spring Boot Backend để kết nối với cơ sở dữ liệu MySQL trên Cloud.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+**### Các công việc cần thực hiện trong tuần:**
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Ngày  | Công việc                                                                                                                                                                                                                                                                                                                  | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
+| **1** | - Giới thiệu về Amazon Relational Database Service (RDS)<br>- Tìm hiểu tính năng và lợi ích của dịch vụ cơ sở dữ liệu được quản lý<br>- Khám phá các hệ quản trị cơ sở dữ liệu được hỗ trợ<br>- Tìm hiểu khái niệm cơ bản về RDS DB Instance                                                                               | 12/09/2026   | 12/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **2** | - Tìm hiểu cách tạo Amazon RDS Instance<br>- Lựa chọn MySQL làm Database Engine<br>- Cấu hình DB Instance và bộ nhớ lưu trữ<br>- Tìm hiểu các loại DB Instance và tùy chọn triển khai                                                                                                                                      | 13/09/2026   | 13/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **3** | - Tìm hiểu DB Subnet Groups<br>- Phân biệt truy cập cơ sở dữ liệu Public và Private<br>- Cấu hình VPC và Subnet cho RDS<br>- Tìm hiểu kết nối mạng đến cơ sở dữ liệu                                                                                                                                                       | 14/09/2026   | 14/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **4** | - Cấu hình Security Groups cho Amazon RDS<br>- Tìm hiểu quy tắc Inbound cho kết nối MySQL<br>- Cho phép truy cập cơ sở dữ liệu từ Security Group của Backend EC2<br>- Tìm hiểu các nguyên tắc bảo mật cơ sở dữ liệu cơ bản                                                                                                 | 15/09/2026   | 15/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **5** | - Tìm hiểu chức năng sao lưu và khôi phục của Amazon RDS<br>- Tìm hiểu Automated Backups và Snapshots<br>- Khám phá giám sát cơ sở dữ liệu thông qua Amazon CloudWatch<br>- Rà soát tính sẵn sàng và cấu hình bảo trì RDS                                                                                                  | 16/09/2026   | 16/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **6** | - Chuẩn bị cơ sở dữ liệu MySQL phone_store hiện tại để chuyển lên AWS<br>- Export database Local bằng công cụ SQL<br>- Tạo và cấu hình cơ sở dữ liệu trên Cloud<br>- Import cấu trúc bảng và dữ liệu ban đầu vào Amazon RDS                                                                                                | 17/09/2026   | 17/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Thực hành:**<br>+ Tạo và cấu hình Amazon RDS MySQL Instance<br>+ Kết nối RDS bằng công cụ quản lý cơ sở dữ liệu<br>+ Cấu hình thông tin kết nối database trong Spring Boot<br>+ Kiểm tra kết nối giữa EC2 và RDS<br>+ Kiểm tra các bảng và dữ liệu trong cơ sở dữ liệu<br>+ Rà soát bảo mật và cấu hình sao lưu database | 18/09/2026   | 18/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
+**### Kết quả đạt được trong tuần 6:**
 
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hiểu các khái niệm và tính năng cơ bản của Amazon RDS.
+- Biết cách tạo và cấu hình RDS MySQL Instance.
+- Làm quen với DB Instance, DB Subnet Group và kết nối cơ sở dữ liệu.
+- Thực hành cấu hình Security Groups để kiểm soát quyền truy cập database.
+- Hiểu các chức năng sao lưu, khôi phục và giám sát cơ bản của Amazon RDS.
+- Tìm hiểu cách Export và chuyển cơ sở dữ liệu MySQL từ môi trường Local lên AWS.
+- Khám phá cách kết nối ứng dụng Spring Boot với Amazon RDS.
+- Xây dựng nền tảng tích hợp Backend chạy trên EC2 với cơ sở dữ liệu MySQL trên Cloud.
+- Có thêm kiến thức thực tế về triển khai và quản lý tài nguyên cơ sở dữ liệu trên AWS.

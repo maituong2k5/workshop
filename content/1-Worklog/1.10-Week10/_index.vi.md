@@ -1,59 +1,33 @@
 ---
-title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+title: "Nhật ký tuần 10"
+date: 2026-10-10
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+**### Mục tiêu tuần 10:**
 
-### Mục tiêu tuần 10:
+Tìm hiểu cách quản lý tài nguyên AWS bằng AWS Systems Manager, AWS CloudFormation và AWS CLI. Nắm được vai trò của các công cụ này trong quản lý hạ tầng, tự động hóa và triển khai ứng dụng.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+**### Các công việc cần thực hiện trong tuần:**
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Ngày   | Công việc                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
+| ------ | ----------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
+| Ngày 1 | Tìm hiểu AWS Systems Manager và vai trò của dịch vụ trong quản lý tài nguyên AWS, đặc biệt là EC2 Instance. | 10/10/2026   | 10/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 2 | Tìm hiểu AWS Systems Manager Session Manager và khả năng truy cập EC2 từ xa.                                | 11/10/2026   | 11/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 3 | Tìm hiểu cách sử dụng Systems Manager để quản lý từ xa và hỗ trợ triển khai ứng dụng trên EC2.              | 12/10/2026   | 12/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 4 | Tìm hiểu AWS CloudFormation và khái niệm Infrastructure as Code (IaC).                                      | 13/10/2026   | 13/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 5 | Tìm hiểu CloudFormation Template, Stack và quy trình quản lý hạ tầng AWS.                                   | 14/10/2026   | 14/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 6 | Tìm hiểu AWS CLI, cách cài đặt, cấu hình và các câu lệnh cơ bản để tương tác với dịch vụ AWS.               | 15/10/2026   | 15/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 7 | Ôn tập Systems Manager, CloudFormation và AWS CLI; đánh giá khả năng ứng dụng vào dự án TechVina.           | 16/10/2026   | 16/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
+**### Kết quả đạt được trong tuần 10:**
 
-### Kết quả đạt được tuần 10:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hiểu được vai trò của AWS Systems Manager trong quản lý tài nguyên AWS và EC2 Instance.
+- Nắm được Session Manager và cách quản lý EC2 từ xa.
+- Hiểu được cách Systems Manager hỗ trợ quá trình triển khai Backend trên EC2.
+- Nắm được khái niệm Infrastructure as Code và AWS CloudFormation.
+- Hiểu được CloudFormation Template và Stack.
+- Có kiến thức về AWS CLI và các thao tác cơ bản thông qua dòng lệnh.
+- Xác định được vai trò thực tế của Systems Manager trong kiến trúc triển khai hiện tại của dự án TechVina.

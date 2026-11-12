@@ -1,59 +1,32 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký tuần 8"
+date: 2026-09-26
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+**### Mục tiêu tuần 8:**
 
-### Mục tiêu tuần 8:
+Tìm hiểu công nghệ container hóa ứng dụng và các dịch vụ container của AWS, bao gồm Docker, Amazon ECS và Lightsail Containers. Nắm được mục đích, mô hình triển khai và đánh giá khả năng áp dụng các công nghệ này vào dự án Web bán điện thoại.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+**### Các công việc cần thực hiện trong tuần:**
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Ngày   | Công việc                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
+| ------ | -------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
+| Ngày 1 | Tìm hiểu khái niệm container hóa ứng dụng và vai trò của container trong triển khai phần mềm.                  | 26/09/2026   | 26/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 2 | Tìm hiểu kiến trúc Docker, Docker Image, Container và Dockerfile.                                              | 27/09/2026   | 27/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 3 | Tìm hiểu Amazon Elastic Container Service (Amazon ECS) và các thành phần chính của dịch vụ.                    | 28/09/2026   | 28/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 4 | Tìm hiểu ECS Cluster, Task Definition, Task và Service.                                                        | 29/09/2026   | 29/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 5 | Tìm hiểu AWS Lightsail Containers và mô hình triển khai ứng dụng.                                              | 30/09/2026   | 30/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 6 | So sánh mô hình triển khai ứng dụng giữa EC2, Amazon ECS và Lightsail Containers.                              | 01/10/2026   | 01/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày 7 | Ôn tập kiến thức và đánh giá công nghệ container dựa trên kiến trúc AWS hiện tại của dự án Web bán điện thoại. | 02/10/2026   | 02/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
+**### Kết quả đạt được trong tuần 8:**
 
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hiểu được khái niệm và lợi ích cơ bản của việc container hóa ứng dụng.
+- Nắm được kiến thức về Docker Image, Container và Dockerfile.
+- Hiểu được các thành phần chính và nguyên lý hoạt động của Amazon ECS.
+- Tìm hiểu được AWS Lightsail Containers và mô hình triển khai ứng dụng.
+- Phân biệt được các phương án triển khai ứng dụng trên AWS.
+- Đánh giá được công nghệ container và xác định dự án Web bán điện thoại hiện tại không sử dụng Docker, Kubernetes, Amazon ECS hoặc Lightsail Containers trong kiến trúc triển khai.

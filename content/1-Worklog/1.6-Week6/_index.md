@@ -1,57 +1,41 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-09-12
+weight: 6
 chapter: false
-pre: " <b> 1.6. </b> "
+pre: " \<b> 1.6. \</b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+**### Week 6 Objectives:**
 
-### Week 6 Objectives:
+- Understand the fundamental concepts and features of Amazon Relational Database Service (RDS).
+- Learn how to create and configure an Amazon RDS MySQL instance.
+- Understand DB Instances, DB Subnet Groups and database connectivity.
+- Learn how to configure database access permissions using Security Groups.
+- Understand database backup, recovery and monitoring on Amazon RDS.
+- Learn how to migrate an existing MySQL database from a local environment to Amazon RDS.
+- Configure the Spring Boot Backend application to connect to the cloud-based MySQL database.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+**### Tasks to be carried out this week:**
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day   | Task                                                                                                                                                                                                                                                                                                                                  | Start Date | Completion Date | Reference Material                                    |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------- |
+| **1** | - Introduction to Amazon Relational Database Service (RDS)<br>- Understand the features and benefits of managed databases<br>- Explore supported database engines<br>- Learn the basic concepts of RDS DB Instances                                                                                                                   | 12/09/2026 | 12/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **2** | - Learn how to create an Amazon RDS instance<br>- Select MySQL as the database engine<br>- Configure DB Instance settings and storage<br>- Understand DB Instance classes and deployment options                                                                                                                                      | 13/09/2026 | 13/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **3** | - Learn DB Subnet Groups<br>- Understand Public and Private Database Access<br>- Configure VPC and subnet settings for RDS<br>- Understand database network connectivity                                                                                                                                                              | 14/09/2026 | 14/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **4** | - Configure Security Groups for Amazon RDS<br>- Understand inbound rules for MySQL connections<br>- Allow database access from the EC2 Backend security group<br>- Learn basic database security practices                                                                                                                            | 15/09/2026 | 15/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **5** | - Learn Amazon RDS backup and recovery features<br>- Understand automated backups and snapshots<br>- Explore database monitoring with Amazon CloudWatch<br>- Review RDS availability and maintenance settings                                                                                                                         | 16/09/2026 | 16/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **6** | - Prepare the existing phone_store MySQL database for migration<br>- Export the local database using SQL tools<br>- Create and configure the cloud database<br>- Import the database structure and initial data into Amazon RDS                                                                                                       | 17/09/2026 | 17/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Practice:**<br>+ Create and configure an Amazon RDS MySQL instance<br>+ Connect to RDS using a database management tool<br>+ Configure Spring Boot database connection settings<br>+ Test connectivity between EC2 and RDS<br>+ Verify database tables and application data<br>+ Review database security and backup configurations | 18/09/2026 | 18/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
+**### Week 6 Achievements:**
 
-### Week 6 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Understood the fundamental concepts and features of Amazon RDS.
+- Learned how to create and configure an RDS MySQL instance.
+- Became familiar with DB Instances, DB Subnet Groups and database connectivity.
+- Practiced configuring Security Groups to control database access.
+- Understood the basic backup, recovery and monitoring features of Amazon RDS.
+- Learned how to export and migrate a MySQL database from a local environment to AWS.
+- Explored methods for connecting Spring Boot applications to Amazon RDS.
+- Established the foundation for integrating the EC2 Backend with the cloud-based MySQL database.
+- Gained practical knowledge of deploying and managing database resources in AWS.
