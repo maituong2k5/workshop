@@ -12,15 +12,15 @@ Understand AWS security best practices, data backup strategies, and cost optimiz
 
 ## Tasks to be carried out this week:
 
-| Day       | Task                                                                                                              | Start Date | Completion Date | Reference Material                                    |
-| --------- | ----------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------- |
-| **Day 1** | Study AWS security fundamentals and common security best practices for cloud environments.                        | 17/10/2026 | 17/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **Day 2** | Review IAM users, groups, roles, policies, and the principle of least privilege.                                  | 18/10/2026 | 18/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **Day 3** | Learn about securing EC2 instances, Security Groups, and access permissions for AWS resources.                    | 19/10/2026 | 19/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **Day 4** | Study AWS data backup concepts and backup strategies for cloud resources.                                         | 20/10/2026 | 20/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **Day 5** | Explore backup and recovery options for Amazon RDS and Amazon S3.                                                 | 21/10/2026 | 21/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **Day 6** | Learn about AWS cost optimization, resource management, and methods for avoiding unnecessary charges.             | 22/10/2026 | 22/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **Day 7** | Review security, backup, and cost optimization practices and evaluate their applications in the TechVina project. | 23/10/2026 | 23/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Day   | Task                                                                                                              | Start Date | Completion Date | Reference Material                                    |
+| ----- | ----------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------- |
+| **1** | Study AWS security fundamentals and common security best practices for cloud environments.                        | 17/10/2026 | 17/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **2** | Review IAM users, groups, roles, policies, and the principle of least privilege.                                  | 18/10/2026 | 18/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **3** | Learn about securing EC2 instances, Security Groups, and access permissions for AWS resources.                    | 19/10/2026 | 19/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **4** | Study AWS data backup concepts and backup strategies for cloud resources.                                         | 20/10/2026 | 20/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **5** | Explore backup and recovery options for Amazon RDS and Amazon S3.                                                 | 21/10/2026 | 21/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **6** | Learn about AWS cost optimization, resource management, and methods for avoiding unnecessary charges.             | 22/10/2026 | 22/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | Review security, backup, and cost optimization practices and evaluate their applications in the TechVina project. | 23/10/2026 | 23/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
 ## Week 11 Achievements:
 
