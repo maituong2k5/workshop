@@ -12,15 +12,15 @@ Tìm hiểu các nguyên tắc bảo mật, chiến lược sao lưu dữ liệu
 
 ## Các công việc cần thực hiện trong tuần:
 
-| Ngày  | Công việc                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
-| ----- | --------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
-| **1** | Tìm hiểu các kiến thức cơ bản về bảo mật AWS và những nguyên tắc bảo mật phổ biến trong môi trường điện toán đám mây. | 17/10/2026   | 17/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **2** | Ôn tập IAM User, Group, Role, Policy và nguyên tắc cấp quyền tối thiểu (Least Privilege).                             | 18/10/2026   | 18/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **3** | Tìm hiểu cách bảo mật EC2 Instance, Security Group và quyền truy cập tài nguyên AWS.                                  | 19/10/2026   | 19/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **4** | Tìm hiểu khái niệm sao lưu dữ liệu và các chiến lược Backup cho tài nguyên trên AWS.                                  | 20/10/2026   | 20/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **5** | Tìm hiểu các phương án sao lưu và khôi phục dữ liệu cho Amazon RDS và Amazon S3.                                      | 21/10/2026   | 21/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **6** | Tìm hiểu cách tối ưu chi phí AWS, quản lý tài nguyên và hạn chế các khoản phí không cần thiết.                        | 22/10/2026   | 22/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **7** | Ôn tập kiến thức bảo mật, sao lưu và tối ưu chi phí; đánh giá khả năng áp dụng vào dự án TechVina.                    | 23/10/2026   | 23/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| Ngày  | Công việc                                                                                                               | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
+| ----- | ----------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
+| **1** | - Tìm hiểu các kiến thức cơ bản về bảo mật AWS và những nguyên tắc bảo mật phổ biến trong môi trường điện toán đám mây. | 17/10/2026   | 17/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **2** | - Ôn tập IAM User, Group, Role, Policy và nguyên tắc cấp quyền tối thiểu (Least Privilege).                             | 18/10/2026   | 18/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **3** | - Tìm hiểu cách bảo mật EC2 Instance, Security Group và quyền truy cập tài nguyên AWS.                                  | 19/10/2026   | 19/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **4** | - Tìm hiểu khái niệm sao lưu dữ liệu và các chiến lược Backup cho tài nguyên trên AWS.                                  | 20/10/2026   | 20/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **5** | - Tìm hiểu các phương án sao lưu và khôi phục dữ liệu cho Amazon RDS và Amazon S3.                                      | 21/10/2026   | 21/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **6** | - Tìm hiểu cách tối ưu chi phí AWS, quản lý tài nguyên và hạn chế các khoản phí không cần thiết.                        | 22/10/2026   | 22/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | - Ôn tập kiến thức bảo mật, sao lưu và tối ưu chi phí; đánh giá khả năng áp dụng vào dự án TechVina.                    | 23/10/2026   | 23/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
 ## Kết quả đạt được trong tuần 11:
 
