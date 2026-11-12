@@ -1,9 +1,9 @@
 ---
-title: "Week 6 Worklog"
+title: "Nhật ký tuần 6"
 date: 2026-09-12
 weight: 6
 chapter: false
-pre: " \<b> 1.6. \</b> "
+pre: " <b> 1.6. </b> "
 ---
 
 **### Mục tiêu tuần 6:**
