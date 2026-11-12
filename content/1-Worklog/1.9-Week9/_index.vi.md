@@ -6,11 +6,11 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-**### Mục tiêu tuần 9:**
+## Mục tiêu tuần 9:
 
 Tìm hiểu cách Amazon CloudWatch giám sát tài nguyên AWS và cách EC2 Auto Scaling tự động điều chỉnh số lượng EC2 Instance dựa trên nhu cầu sử dụng ứng dụng.
 
-**### Các công việc cần thực hiện trong tuần:**
+## Các công việc cần thực hiện trong tuần:
 
 | Ngày   | Công việc                                                                                            | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
 | ------ | ---------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
@@ -22,7 +22,7 @@ Tìm hiểu cách Amazon CloudWatch giám sát tài nguyên AWS và cách EC2 Au
 | Ngày 6 | Tìm hiểu Launch Templates, Auto Scaling Groups và các chính sách Scaling.                            | 08/10/2026   | 08/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | Ngày 7 | Ôn tập CloudWatch và EC2 Auto Scaling, đánh giá khả năng ứng dụng vào dự án TechVina.                | 09/10/2026   | 09/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Kết quả đạt được trong tuần 9:**
+## Kết quả đạt được trong tuần 9:
 
 - Hiểu được vai trò của Amazon CloudWatch trong việc giám sát tài nguyên và ứng dụng trên AWS.
 - Nắm được các khái niệm CloudWatch Metrics, Logs và Alarms.

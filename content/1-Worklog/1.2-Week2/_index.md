@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-**### Week 2 Objectives:**
+## Week 2 Objectives:
 
 - Understand the fundamental concepts of AWS Identity and Access Management (IAM).
 - Learn how to manage IAM Users and Groups.
@@ -16,7 +16,7 @@ pre: " <b> 1.2. </b> "
 - Learn how to assign permissions to applications running on Amazon EC2 using IAM Roles.
 - Practice configuring IAM permissions to improve the security of the Phone Store Web Application.
 
-**### Tasks to be carried out this week:**
+## Tasks to be carried out this week:
 
 | Day   | Task                                                                                                                                                                                                                                                                               | Start Date | Completion Date | Reference Material                                    |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------- |
@@ -26,9 +26,9 @@ pre: " <b> 1.2. </b> "
 | **4** | - Learn IAM Policies<br>- Understand JSON-based policy structure<br>- Study Effect, Action, Resource and Condition<br>- Practice attaching policies to IAM Users and Groups                                                                                                        | 18/08/2026 | 18/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **5** | - Learn IAM Roles<br>- Understand the differences between IAM Users and Roles<br>- Explore trust policies and permission policies<br>- Understand how temporary security credentials work                                                                                          | 19/08/2026 | 19/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **6** | - Understand the principle of least privilege<br>- Learn basic IAM security best practices<br>- Explore IAM Roles for EC2<br>- Understand how EC2 instances access AWS services without storing permanent access keys                                                              | 20/08/2026 | 20/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **7** | **Practice:**<br>+ Create and configure an IAM User<br>+ Create an IAM Group and attach policies<br>+ Review and test IAM permissions<br>+ Configure an IAM Role for EC2<br>+ Review access permissions and security settings<br>+ Summarize the knowledge learned during the week | 21/08/2026 | 21/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Practice:**<br>- Create and configure an IAM User<br>- Create an IAM Group and attach policies<br>- Review and test IAM permissions<br>- Configure an IAM Role for EC2<br>- Review access permissions and security settings<br>- Summarize the knowledge learned during the week | 21/08/2026 | 21/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Week 2 Achievements:**
+## Week 2 Achievements:
 
 - Understood the fundamental concepts of AWS Identity and Access Management (IAM).
 - Learned how to create and manage IAM Users and Groups.

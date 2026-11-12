@@ -1,12 +1,12 @@
 ---
 title: "Worklog Tuần 4"
 date: 2026-08-29
-weight: 1
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-**### Mục tiêu tuần 4:**
+## Mục tiêu tuần 4:
 
 - Hiểu các khái niệm và tính năng cơ bản của Amazon Simple Storage Service (S3).
 - Tìm hiểu cách tạo và cấu hình S3 Bucket.
@@ -16,7 +16,7 @@ pre: " <b> 1.4. </b> "
 - Tìm hiểu cách build và triển khai ứng dụng ReactJS Frontend lên Amazon S3.
 - Khám phá cách sử dụng Amazon S3 để lưu trữ hình ảnh sản phẩm cho Website bán điện thoại.
 
-**### Các công việc cần thực hiện trong tuần:**
+## Các công việc cần thực hiện trong tuần:
 
 | Ngày  | Công việc                                                                                                                                                                                                                                                                                                         | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
@@ -26,9 +26,9 @@ pre: " <b> 1.4. </b> "
 | **4** | - Tìm hiểu cách hosting website tĩnh bằng Amazon S3<br>- Tìm hiểu cấu hình Static Website Hosting<br>- Khám phá Index Document và Error Document<br>- Tìm hiểu cách cấu hình quyền truy cập website                                                                                                               | 01/09/2026   | 01/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **5** | - Chuẩn bị ứng dụng ReactJS Frontend để triển khai<br>- Cấu hình biến môi trường Production<br>- Build ứng dụng ReactJS<br>- Kiểm tra các file HTML, CSS và JavaScript sau khi build                                                                                                                              | 02/09/2026   | 02/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **6** | - Tạo S3 Bucket cho Frontend của Website bán điện thoại<br>- Cấu hình Static Website Hosting<br>- Upload các file ReactJS sau khi build lên S3<br>- Cấu hình các quyền truy cập cần thiết                                                                                                                         | 03/09/2026   | 03/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **7** | **Thực hành:**<br>+ Triển khai ReactJS Frontend lên Amazon S3<br>+ Truy cập website thông qua S3 Website Endpoint<br>+ Kiểm tra các tài nguyên tĩnh như CSS, JavaScript và hình ảnh<br>+ Khám phá cách lưu trữ hình ảnh sản phẩm trên S3<br>+ Đánh giá kết quả triển khai và xác định các vấn đề có thể phát sinh | 04/09/2026   | 04/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Thực hành:**<br>- Triển khai ReactJS Frontend lên Amazon S3<br>- Truy cập website thông qua S3 Website Endpoint<br>- Kiểm tra các tài nguyên tĩnh như CSS, JavaScript và hình ảnh<br>- Khám phá cách lưu trữ hình ảnh sản phẩm trên S3<br>- Đánh giá kết quả triển khai và xác định các vấn đề có thể phát sinh | 04/09/2026   | 04/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Kết quả đạt được trong tuần 4:**
+## Kết quả đạt được trong tuần 4:
 
 - Hiểu các khái niệm và tính năng cơ bản của Amazon S3.
 - Biết cách tạo và cấu hình S3 Bucket.

@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-**### Week 5 Objectives:**
+## Week 5 Objectives:
 
 - Understand the fundamental concepts and features of Amazon Elastic Compute Cloud (EC2).
 - Learn how to launch and configure EC2 instances.
@@ -16,7 +16,7 @@ pre: " <b> 1.5. </b> "
 - Prepare the Spring Boot Backend application for deployment on Amazon EC2.
 - Learn how to deploy and run the Phone Store Backend application in a cloud environment.
 
-**### Tasks to be carried out this week:**
+## Tasks to be carried out this week:
 
 | Day   | Task                                                                                                                                                                                                                                                                                                           | Start Date | Completion Date | Reference Material                                    |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------- |
@@ -26,9 +26,9 @@ pre: " <b> 1.5. </b> "
 | **4** | - Learn IAM Roles for EC2<br>- Understand instance profiles and IAM permissions<br>- Configure an IAM Role for an EC2 instance<br>- Learn how applications access AWS services securely                                                                                                                        | 08/09/2026 | 08/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **5** | - Prepare the Spring Boot Backend application for deployment<br>- Configure production application settings<br>- Build the Spring Boot application into an executable JAR file<br>- Review application dependencies and deployment requirements                                                                | 09/09/2026 | 09/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **6** | - Prepare the EC2 environment for Spring Boot deployment<br>- Install and configure Java Runtime Environment<br>- Transfer the Spring Boot JAR file to EC2<br>- Configure application environment variables and server settings                                                                                | 10/09/2026 | 10/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **7** | **Practice:**<br>+ Launch and configure an EC2 instance<br>+ Connect to the server using SSH<br>+ Deploy and run the Spring Boot Backend application<br>+ Configure the application port and Security Group rules<br>+ Test Backend API endpoints<br>+ Review deployment results and identify potential issues | 11/09/2026 | 11/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Practice:**<br>- Launch and configure an EC2 instance<br>- Connect to the server using SSH<br>- Deploy and run the Spring Boot Backend application<br>- Configure the application port and Security Group rules<br>- Test Backend API endpoints<br>- Review deployment results and identify potential issues | 11/09/2026 | 11/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Week 5 Achievements:**
+## Week 5 Achievements:
 
 - Understood the fundamental concepts and features of Amazon EC2.
 - Learned how to launch and configure EC2 instances.

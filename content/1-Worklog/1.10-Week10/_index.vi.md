@@ -6,11 +6,11 @@ chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-**### Mục tiêu tuần 10:**
+## Mục tiêu tuần 10:
 
 Tìm hiểu cách quản lý tài nguyên AWS bằng AWS Systems Manager, AWS CloudFormation và AWS CLI. Nắm được vai trò của các công cụ này trong quản lý hạ tầng, tự động hóa và triển khai ứng dụng.
 
-**### Các công việc cần thực hiện trong tuần:**
+## Các công việc cần thực hiện trong tuần:
 
 | Ngày   | Công việc                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
 | ------ | ----------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
@@ -22,7 +22,7 @@ Tìm hiểu cách quản lý tài nguyên AWS bằng AWS Systems Manager, AWS Cl
 | Ngày 6 | Tìm hiểu AWS CLI, cách cài đặt, cấu hình và các câu lệnh cơ bản để tương tác với dịch vụ AWS.               | 15/10/2026   | 15/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | Ngày 7 | Ôn tập Systems Manager, CloudFormation và AWS CLI; đánh giá khả năng ứng dụng vào dự án TechVina.           | 16/10/2026   | 16/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Kết quả đạt được trong tuần 10:**
+## Kết quả đạt được trong tuần 10:
 
 - Hiểu được vai trò của AWS Systems Manager trong quản lý tài nguyên AWS và EC2 Instance.
 - Nắm được Session Manager và cách quản lý EC2 từ xa.

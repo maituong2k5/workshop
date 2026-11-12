@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Mục tiêu tuần 1:
+## Mục tiêu tuần 1:
 
 - Hiểu các khái niệm cơ bản về Điện toán đám mây và Amazon Web Services (AWS).
 - Tìm hiểu cách tạo và cấu hình tài khoản AWS.
@@ -15,7 +15,7 @@ pre: " <b> 1.1. </b> "
 - Làm quen với AWS Support và các gói hỗ trợ kỹ thuật.
 - Khám phá những dịch vụ AWS cơ bản cần thiết để triển khai Website bán điện thoại.
 
-### Các công việc cần thực hiện trong tuần:
+## Các công việc cần thực hiện trong tuần:
 
 | Ngày  | Công việc                                                                                                                                                                                                                                        | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ----------------------------------------------------- |
@@ -25,9 +25,9 @@ pre: " <b> 1.1. </b> "
 | **4** | - Tìm hiểu kiến thức cơ bản về AWS Budgets<br>- Tạo ngân sách chi phí hàng tháng<br>- Cấu hình ngưỡng ngân sách và cảnh báo chi tiêu<br>- Tìm hiểu cách theo dõi chi phí AWS                                                                     | 11/08/2026   | 11/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **5** | - Khám phá dịch vụ AWS Support<br>- Tìm hiểu các gói hỗ trợ AWS<br>- Tìm hiểu cách truy cập hỗ trợ kỹ thuật AWS<br>- Khám phá tài liệu và nguồn hỗ trợ AWS                                                                                       | 12/08/2026   | 12/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **6** | - Khám phá AWS Management Console<br>- Xác định các dịch vụ AWS cần thiết cho dự án Web bán điện thoại<br>- Tìm hiểu mục đích cơ bản của EC2, S3, RDS và VPC<br>- Rà soát kiến trúc triển khai AWS dự kiến                                       | 13/08/2026   | 13/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **7** | **Thực hành:**<br>+ Kiểm tra cấu hình tài khoản AWS<br>+ Kiểm tra cài đặt thanh toán và ngân sách<br>+ Khám phá bảng điều khiển các dịch vụ AWS<br>+ Rà soát yêu cầu triển khai Website bán điện thoại<br>+ Tổng kết kiến thức đã học trong tuần | 14/08/2026   | 14/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Thực hành:**<br>- Kiểm tra cấu hình tài khoản AWS<br>- Kiểm tra cài đặt thanh toán và ngân sách<br>- Khám phá bảng điều khiển các dịch vụ AWS<br>- Rà soát yêu cầu triển khai Website bán điện thoại<br>- Tổng kết kiến thức đã học trong tuần | 14/08/2026   | 14/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-### Kết quả đạt được trong tuần 1:
+## Kết quả đạt được trong tuần 1:
 
 - Hiểu các khái niệm cơ bản và lợi ích của Điện toán đám mây và AWS.
 - Tạo và làm quen với tài khoản AWS.

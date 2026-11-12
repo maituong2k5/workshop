@@ -6,11 +6,11 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-**### Mục tiêu tuần 11:**
+## Mục tiêu tuần 11:
 
 Tìm hiểu các nguyên tắc bảo mật, chiến lược sao lưu dữ liệu và phương pháp tối ưu chi phí trên AWS. Nắm được cách bảo vệ tài nguyên, dữ liệu ứng dụng và duy trì hoạt động AWS hiệu quả.
 
-**### Các công việc cần thực hiện trong tuần:**
+## Các công việc cần thực hiện trong tuần:
 
 | Ngày   | Công việc                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
 | ------ | --------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
@@ -22,7 +22,7 @@ Tìm hiểu các nguyên tắc bảo mật, chiến lược sao lưu dữ liệu
 | Ngày 6 | Tìm hiểu cách tối ưu chi phí AWS, quản lý tài nguyên và hạn chế các khoản phí không cần thiết.                        | 22/10/2026   | 22/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | Ngày 7 | Ôn tập kiến thức bảo mật, sao lưu và tối ưu chi phí; đánh giá khả năng áp dụng vào dự án TechVina.                    | 23/10/2026   | 23/10/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Kết quả đạt được trong tuần 11:**
+## Kết quả đạt được trong tuần 11:
 
 - Hiểu được các nguyên tắc bảo mật cơ bản và những phương pháp bảo mật tốt nhất trên AWS.
 - Ôn tập được cách quản lý quyền IAM và nguyên tắc cấp quyền tối thiểu.

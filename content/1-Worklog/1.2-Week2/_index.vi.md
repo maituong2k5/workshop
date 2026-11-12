@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-**### Mục tiêu tuần 2:**
+## Mục tiêu tuần 2:
 
 - Hiểu các khái niệm cơ bản về dịch vụ quản lý truy cập AWS Identity and Access Management (IAM).
 - Tìm hiểu cách quản lý IAM Users và Groups.
@@ -16,7 +16,7 @@ pre: " <b> 1.2. </b> "
 - Tìm hiểu cách cấp quyền cho các ứng dụng chạy trên Amazon EC2 thông qua IAM Roles.
 - Thực hành cấu hình quyền truy cập IAM nhằm tăng cường bảo mật cho dự án Web bán điện thoại.
 
-**### Các công việc cần thực hiện trong tuần:**
+## Các công việc cần thực hiện trong tuần:
 
 | Ngày  | Công việc                                                                                                                                                                                                                                                     | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                                    |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------- |
@@ -26,9 +26,9 @@ pre: " <b> 1.2. </b> "
 | **4** | - Tìm hiểu IAM Policies<br>- Hiểu cấu trúc Policy dưới định dạng JSON<br>- Tìm hiểu Effect, Action, Resource và Condition<br>- Thực hành gán Policies cho IAM Users và Groups                                                                                 | 18/08/2026   | 18/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **5** | - Tìm hiểu IAM Roles<br>- Phân biệt IAM Users và IAM Roles<br>- Khám phá Trust Policy và Permission Policy<br>- Tìm hiểu cơ chế thông tin xác thực tạm thời                                                                                                   | 19/08/2026   | 19/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **6** | - Tìm hiểu nguyên tắc đặc quyền tối thiểu<br>- Tìm hiểu các nguyên tắc bảo mật IAM cơ bản<br>- Khám phá IAM Roles for EC2<br>- Hiểu cách EC2 truy cập các dịch vụ AWS mà không cần lưu Access Key cố định                                                     | 20/08/2026   | 20/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **7** | **Thực hành:**<br>+ Tạo và cấu hình IAM User<br>+ Tạo IAM Group và gán Policies<br>+ Kiểm tra và thử nghiệm quyền truy cập IAM<br>+ Cấu hình IAM Role cho EC2<br>+ Kiểm tra quyền truy cập và các thiết lập bảo mật<br>+ Tổng kết kiến thức đã học trong tuần | 21/08/2026   | 21/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Thực hành:**<br>- Tạo và cấu hình IAM User<br>- Tạo IAM Group và gán Policies<br>- Kiểm tra và thử nghiệm quyền truy cập IAM<br>- Cấu hình IAM Role cho EC2<br>- Kiểm tra quyền truy cập và các thiết lập bảo mật<br>- Tổng kết kiến thức đã học trong tuần | 21/08/2026   | 21/08/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Kết quả đạt được trong tuần 2:**
+## Kết quả đạt được trong tuần 2:
 
 - Hiểu các khái niệm cơ bản về dịch vụ AWS Identity and Access Management (IAM).
 - Biết cách tạo và quản lý IAM Users và Groups.

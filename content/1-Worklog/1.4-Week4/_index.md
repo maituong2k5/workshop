@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-**### Week 4 Objectives:**
+## Week 4 Objectives:
 
 - Understand the fundamental concepts and features of Amazon Simple Storage Service (S3).
 - Learn how to create and configure S3 Buckets.
@@ -16,7 +16,7 @@ pre: " <b> 1.4. </b> "
 - Learn how to build and deploy a ReactJS Frontend application to Amazon S3.
 - Explore the use of Amazon S3 for storing product images in the Phone Store Web Application.
 
-**### Tasks to be carried out this week:**
+## Tasks to be carried out this week:
 
 | Day   | Task                                                                                                                                                                                                                                                                                      | Start Date | Completion Date | Reference Material                                    |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------- |
@@ -26,9 +26,9 @@ pre: " <b> 1.4. </b> "
 | **4** | - Learn static website hosting with Amazon S3<br>- Understand static website hosting configurations<br>- Explore index documents and error documents<br>- Learn how to configure website access permissions                                                                               | 01/09/2026 | 01/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **5** | - Prepare the ReactJS Frontend application for deployment<br>- Configure the production environment variables<br>- Build the ReactJS application<br>- Review the generated HTML, CSS and JavaScript files                                                                                 | 02/09/2026 | 02/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 | **6** | - Create an S3 Bucket for the Phone Store Frontend<br>- Configure static website hosting<br>- Upload the ReactJS build files to S3<br>- Configure the necessary access permissions                                                                                                        | 03/09/2026 | 03/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
-| **7** | **Practice:**<br>+ Deploy the ReactJS Frontend to Amazon S3<br>+ Access the website through the S3 website endpoint<br>+ Test static resources such as CSS, JavaScript and images<br>+ Explore S3 storage for product images<br>+ Review deployment results and identify potential issues | 04/09/2026 | 04/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
+| **7** | **Practice:**<br>- Deploy the ReactJS Frontend to Amazon S3<br>- Access the website through the S3 website endpoint<br>- Test static resources such as CSS, JavaScript and images<br>- Explore S3 storage for product images<br>- Review deployment results and identify potential issues | 04/09/2026 | 04/09/2026      | [AWS CloudJourney](https://cloudjourney.awsfcaj.com/) |
 
-**### Week 4 Achievements:**
+## Week 4 Achievements:
 
 - Understood the fundamental concepts and features of Amazon S3.
 - Learned how to create and configure S3 Buckets.
